@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robo de bicicletas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>¡¡ALERTA!!</h1>
+
+        <nav>
+            <a href="#">HOME</a>
+            <a href="clubViejuner.html">VIEJUNERS</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <h3>La policía está preocupada por el robo de bicicletas. Si has sido vivtima de un robo o tienes alguna información, rellena este formulario e informa sobre los hechos:</h3>
+        <form action="">
+
+            <label for="fecha">Fecha del robo:</label><br>
+            <input type="date" name="fecha" id="fecha" required>
+            <label for="ora">Hora del robo:</label>
+            <input type="time" name="hora" id="hora">
+            <label for="">Color:</label>
+            <input type="color" name="color" id="color" required>
+            <label for="rango">Rango de precio:</label>
+            <input type="range" name="rango" id="rango" min=0 max="3000">
+            <label for="tipo">Tipo de bicicleta:</label><br>
+            <select name="tipo" id="tipo" size="4">
+                <optgroup label="Paseo">
+                    <option value="senorial">Señorial</option>
+                    <option value="antiplebeyos">Anti-plebeyos</option>
+                    <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+                <optgroup label="Montaña">
+                    <option value="Gamusinos">Gamusinos</option>
+                    <option value="Hueleflorespremium">Hueleflores premium</option>
+                    <option value="Fangolover">Fango lover</option>
+                <optgroup label="Carreras">
+                    <option value="Metroymedio">Metroymedio</option>
+                    <option value="3delatarde">3 de la tarde. Fluorescente edition</option>
+                    <option value="Grupitors">Grupitors</option>
+            </select><br>
+
+            <label for="accesorios">Accesorios:</label><br>
+            <select name="tipo" id="tipo" size="5" multiple>
+                    <option value="Ruedines">Ruedines</option>
+                    <option value="pegatinas">Pegatinas</option>
+                    <option value="cesta">Cesta</option>
+                    <option value="bomba">Bomba de aire</option>
+                    <option value="timbre">Timbre</option>
+                    <option value="foco">Foco</option>
+            </select><br>
+
+            <label for="marca">Marca:</label><br>
+            <input list="marca" name="marca" size="4">
+                <datalist id="marca">
+                    <option value="specialized">specialized</option>
+                    <option value="trek">trek</option>
+                    <option value="merida">merida</option>
+                    <option value="scott">scott</option>
+                    <option value="giant">giant</option>
+                    <option value="cube">cube</option>
+                    <option value="lapierre">lapierre</option>
+                    <option value="orbea">orbea</option>
+                    <option value="cannondale">cannondale</option>
+                    <option value="bmc">bmc</option>
+                    <option value="canyon">canyon</option>
+                    <option value="look">look</option>
+                    <option value="protek">protek</option>
+                    <option value="megamo">megamo</option>
+                    <option value="pinarello">pinarello</option>
+                    <option value="bianchi">bianchi</option>
+                    <option value="bh">bh</option>
+                    <option value="factor">factor</option>
+                    <option value="ghost">ghost</option>
+                    <option value="cervélo">cervélo</option>
+                    <option value="argon">argon</option>
+
+                </datalist>
+
+            <input type="reset" value="Restablecer">
+
+            <input type="submit" value="Enviar">
+        </form>
+       
+
+    </main>
+    
+</body>
+</html>
